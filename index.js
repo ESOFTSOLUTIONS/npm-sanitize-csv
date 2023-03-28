@@ -4,7 +4,6 @@
  */
 
 const { escape } = require('lodash');
-const _ = require('lodash');
 
 const specialCharacters = [
   '=', '+', '-', '@', '0x09', '0x0D'
@@ -51,7 +50,6 @@ function validateArgs(args) {
   } else {
     this.quotes = args[1].quotes;
   }
-
 }
 
 module.exports = {
